@@ -1,0 +1,24 @@
+{
+  "name": "@annapoorani/azure_file_storage",
+  "version": "1.2.0",
+  "description": "An extension for annapoorani to use Azure File Storage",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annapooranicommerce/annapoorani/tree/main/packages/azure_file_storage"
+  },
+  "keywords": [
+    "annapoorani azure file storage"
+  ],
+  "author": "The Nguyen (https://annapoorani.io/)",
+  "license": "GNU GENERAL PUBLIC LICENSE 3.0",
+  "bugs": {
+    "url": "https://github.com/annapooranicommerce/annapoorani/issues"
+  },
+  "homepage": "https://github.com/annapooranicommerce/annapoorani/tree/main/packages/azure_file_storage",
+  "engines": {
+    "node": ">= 14.0.0"
+  },
+  "dependencies": {
+    "@azure/storage-blob": "^12.16.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": [
+        "./themes/friday/components/*",
+        "./extensions/productComment/components/*",
+        "./packages/annapoorani/src/components/*"
+      ],
+      "@components-origin/*": [
+        "./packages/annapoorani/src/components/*"
+      ],
+      "@default-theme/cms/*" : [
+        "./packages/annapoorani/src/modules/cms/pages/*"
+      ],
+      "@annapoorani/annapoorani/*" : [
+        "./packages/annapoorani/*"
+      ]
+    }
+  }
+}
