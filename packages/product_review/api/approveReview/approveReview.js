@@ -1,5 +1,5 @@
-const { pool } = require('@annapoorani/annapoorani/src/lib/postgres/connection');
-const { select, update } = require('@annapoorani/postgres-query-builder');
+const { pool } = require('@customer01annapooranisarees/annapoorani/src/lib/postgres/connection');
+const { select, update } = require('@customer01annapooranisarees/postgres-query-builder');
 
 module.exports = async function graphql(request, response, delegate, next) {
   try {

@@ -1,9 +1,9 @@
 const {
   buildFilterFromUrl
-} = require('@annapoorani/annapoorani/src/lib/util/buildFilterFromUrl');
+} = require('@customer01annapooranisarees/annapoorani/src/lib/util/buildFilterFromUrl');
 const {
   setContextValue
-} = require('@annapoorani/annapoorani/src/modules/graphql/services/contextHelper');
+} = require('@customer01annapooranisarees/annapoorani/src/modules/graphql/services/contextHelper');
 
 // eslint-disable-next-line no-unused-vars
 module.exports = (request, response) => {

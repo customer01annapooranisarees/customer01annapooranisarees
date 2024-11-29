@@ -1,15 +1,15 @@
 const path = require('path');
 const fs = require('fs').promises;
-const { pool } = require('@annapoorani/annapoorani/src/lib/postgres/connection');
-const { getConfig } = require('@annapoorani/annapoorani/src/lib/util/getConfig');
+const { pool } = require('@customer01annapooranisarees/annapoorani/src/lib/postgres/connection');
+const { getConfig } = require('@customer01annapooranisarees/annapoorani/src/lib/util/getConfig');
 const { Resend } = require('resend');
-const { select } = require('@annapoorani/postgres-query-builder');
-const { contries } = require('@annapoorani/annapoorani/src/lib/locale/countries');
-const { provinces } = require('@annapoorani/annapoorani/src/lib/locale/provinces');
-const { error } = require('@annapoorani/annapoorani/src/lib/log/logger');
+const { select } = require('@customer01annapooranisarees/postgres-query-builder');
+const { contries } = require('@customer01annapooranisarees/annapoorani/src/lib/locale/countries');
+const { provinces } = require('@customer01annapooranisarees/annapoorani/src/lib/locale/provinces');
+const { error } = require('@customer01annapooranisarees/annapoorani/src/lib/log/logger');
 const Handlebars = require('handlebars');
-const { getEnv } = require('@annapoorani/annapoorani/src/lib/util/getEnv');
-const { getValue } = require('@annapoorani/annapoorani/src/lib/util/registry');
+const { getEnv } = require('@customer01annapooranisarees/annapoorani/src/lib/util/getEnv');
+const { getValue } = require('@customer01annapooranisarees/annapoorani/src/lib/util/registry');
 
 module.exports = async function sendOrderConfirmationEmail(data) {
   try {

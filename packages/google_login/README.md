@@ -9,7 +9,7 @@ This extension allows customer to login to annapoorani using your Google account
 ### Step 1: Install the extension using npm:
 
 ```bash
-npm install @annapoorani/google_login
+npm install @customer01annapooranisarees/google_login
 ```
 
 ### Step 2: Enable the extension
@@ -25,7 +25,7 @@ Edit the `config/default.json` file in the root directory of your annapoorani in
       ...,
       {
         "name": "google_login",
-        "resolve": "node_modules/@annapoorani/google_login",
+        "resolve": "node_modules/@customer01annapooranisarees/google_login",
         "enabled": true,
         "priority": 10
       }

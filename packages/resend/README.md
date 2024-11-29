@@ -9,7 +9,7 @@ A Resend extension for annapoorani. This extension is used to send email to cust
 ### Step 1: Install the extension package
 
 ```javascript
-npm install @annapoorani/resend
+npm install @customer01annapooranisarees/resend
 ```
 ### Step 2: Register the extension by adding it to the config file
 
@@ -23,7 +23,7 @@ npm install @annapoorani/resend
         ...,
         {
           "name": "resend",
-          "resolve": "node_modules/@annapoorani/resend",
+          "resolve": "node_modules/@customer01annapooranisarees/resend",
           "enabled": true,
           "priority": 10
         }

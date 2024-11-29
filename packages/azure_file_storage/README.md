@@ -9,7 +9,7 @@ This extension allows you to store your annapoorani files including product imag
 ### Step 1: Install the extension using npm:
 
 ```bash
-npm install @annapoorani/azure_file_storage
+npm install @customer01annapooranisarees/azure_file_storage
 ```
 
 ### Step 2: Enable the extension
@@ -25,7 +25,7 @@ Edit the `config/default.json` file in the root directory of your annapoorani in
       ...,
       {
         "name": "azure_file_storage",
-        "resolve": "node_modules/@annapoorani/azure_file_storage",
+        "resolve": "node_modules/@customer01annapooranisarees/azure_file_storage",
         "enabled": true,
         "priority": 10
       }

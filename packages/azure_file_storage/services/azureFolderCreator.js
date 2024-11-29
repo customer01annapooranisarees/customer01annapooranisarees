@@ -1,5 +1,5 @@
 const { BlobServiceClient } = require('@azure/storage-blob');
-const { getEnv } = require('@annapoorani/annapoorani/src/lib/util/getEnv');
+const { getEnv } = require('@customer01annapooranisarees/annapoorani/src/lib/util/getEnv');
 
 module.exports.azureFolderCreator = {
   create: async (path) => {

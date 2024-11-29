@@ -2,7 +2,7 @@ const config = require('config');
 
 module.exports = () => {
   const sendgridConfig = {
-    from: 'Customer Service <hello@annapoorani.io>',
+    from: 'Customer Service <hello@customer01annapooranisarees.io>',
     fromName: 'annapoorani',
     events: {
       order_placed: {

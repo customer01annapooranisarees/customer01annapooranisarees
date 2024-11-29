@@ -1,5 +1,5 @@
 {
-  "name": "@annapoorani/s3_file_storage",
+  "name": "@customer01annapooranisarees/s3_file_storage",
   "version": "1.2.0",
   "description": "An extension for annapoorani to use AWS S3 File Storage",
   "repository": {

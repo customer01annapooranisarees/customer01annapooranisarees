@@ -13,7 +13,7 @@
       "@default-theme/cms/*" : [
         "./packages/annapoorani/src/modules/cms/pages/*"
       ],
-      "@annapoorani/annapoorani/*" : [
+      "@customer01annapooranisarees/annapoorani/*" : [
         "./packages/annapoorani/*"
       ]
     }

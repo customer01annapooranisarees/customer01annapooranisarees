@@ -1,5 +1,5 @@
 {
-  "name": "annapoorani",
+  "name": "customer01annapooranisarees",
   "version": "1.0.0-beta",
   "description": "A shopping cart platform with Express, React and Postgres",
   "files": [
@@ -10,7 +10,7 @@
     "babel.config.js"
   ],
   "bin": {
-    "annapoorani": "./bin/annapoorani"
+    "annapoorani": "bin/annapoorani"
   },
   "workspaces": [
     "packages/*",
@@ -24,13 +24,13 @@
     "user:create": "annapoorani user:create",
     "user:changePassword": "annapoorani user:changePassword",
     "start:debug": "annapoorani start --debug",
-    "test": "jest --workspace=@annapoorani/annapoorani",
+    "test": "jest --workspace=@customer01annapooranisarees/annapoorani",
     "cypress": "cypress run",
     "lint": "eslint --fix --ext .js,.jsx .",
     "prepare": "husky install"
   },
   "author": "The Nguyen (https://annapoorani.io)",
-  "license": "GNU GENERAL PUBLIC LICENSE 3.0",
+  "license": "GPL-3.0-or-later",
   "devDependencies": {
     "@babel/cli": "^7.15.7",
     "@babel/core": "^7.14.8",
@@ -52,5 +52,6 @@
     "rxjs": "^7.2.0",
     "tailwindcss": "^3.2.1",
     "webpack-bundle-analyzer": "^4.5.0"
-  }
+  },
+  "main": "babel.config.js"
 }

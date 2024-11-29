@@ -1,14 +1,14 @@
-const { pool } = require('@annapoorani/annapoorani/src/lib/postgres/connection');
-const { buildUrl } = require('@annapoorani/annapoorani/src/lib/router/buildUrl');
-const { getConfig } = require('@annapoorani/annapoorani/src/lib/util/getConfig');
+const { pool } = require('@customer01annapooranisarees/annapoorani/src/lib/postgres/connection');
+const { buildUrl } = require('@customer01annapooranisarees/annapoorani/src/lib/router/buildUrl');
+const { getConfig } = require('@customer01annapooranisarees/annapoorani/src/lib/util/getConfig');
 const {
   getGoogleAuthToken
-} = require('@annapoorani/google_login/services/getGoogleAuthToken');
+} = require('@customer01annapooranisarees/google_login/services/getGoogleAuthToken');
 const {
   getGoogleUserInfo
-} = require('@annapoorani/google_login/services/getGoogleUserInfo');
-const { select, insert } = require('@annapoorani/postgres-query-builder');
-const { error } = require('@annapoorani/annapoorani/src/lib/log/logger');
+} = require('@customer01annapooranisarees/google_login/services/getGoogleUserInfo');
+const { select, insert } = require('@customer01annapooranisarees/postgres-query-builder');
+const { error } = require('@customer01annapooranisarees/annapoorani/src/lib/log/logger');
 
 /* eslint-disable-next-line no-unused-vars */
 module.exports = async (request, response, delegate, next) => {

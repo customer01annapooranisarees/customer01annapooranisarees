@@ -1,5 +1,5 @@
 {
-  "name": "@annapoorani/postgres-query-builder",
+  "name": "@customer01annapooranisarees/postgres-query-builder",
   "version": "1.2.0",
   "description": "A PostgreSQL query builder for NodeJS",
   "main": "index.js",

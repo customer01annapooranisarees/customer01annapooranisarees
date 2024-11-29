@@ -1,7 +1,7 @@
-const { addProcessor } = require('@annapoorani/annapoorani/src/lib/util/registry');
+const { addProcessor } = require('@customer01annapooranisarees/annapoorani/src/lib/util/registry');
 const {
   defaultPaginationFilters
-} = require('@annapoorani/annapoorani/src/lib/util/defaultPaginationFilters');
+} = require('@customer01annapooranisarees/annapoorani/src/lib/util/defaultPaginationFilters');
 const registerDefaultReviewCollectionFilters = require('./services/registerDefaultReviewCollectionFilters');
 
 module.exports = () => {

@@ -9,7 +9,7 @@ This extension allows customer to review and rate products.
 ### Step 1: Install the extension using npm:
 
 ```bash
-npm install @annapoorani/product_review
+npm install @customer01annapooranisarees/product_review
 
 ```
 
@@ -26,7 +26,7 @@ Edit the `config/default.json` file in the root directory of your annapoorani in
       ...,
       {
         "name": "product_review",
-        "resolve": "node_modules/@annapoorani/product_review",
+        "resolve": "node_modules/@customer01annapooranisarees/product_review",
         "enabled": true,
         "priority": 10
       }

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { _ } from '@annapoorani/annapoorani/src/lib/locale/translate';
+import { _ } from '@customer01annapooranisarees/annapoorani/src/lib/locale/translate';
 import './GoogleLogin.scss';
 
 function GoogleIcon({ width, height }) {

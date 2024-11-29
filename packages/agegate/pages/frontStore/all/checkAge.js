@@ -1,4 +1,4 @@
-const { buildUrl } = require('@annapoorani/annapoorani/src/lib/router/buildUrl');
+const { buildUrl } = require('@customer01annapooranisarees/annapoorani/src/lib/router/buildUrl');
 
 module.exports = async (request, response, delegate, next) => {
   // Get the age verify cookie

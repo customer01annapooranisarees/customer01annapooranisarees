@@ -1,6 +1,6 @@
-const { getConfig } = require('@annapoorani/annapoorani/src/lib/util/getConfig');
-const { merge } = require('@annapoorani/annapoorani/src/lib/util/merge');
-const { addProcessor } = require('@annapoorani/annapoorani/src/lib/util/registry');
+const { getConfig } = require('@customer01annapooranisarees/annapoorani/src/lib/util/getConfig');
+const { merge } = require('@customer01annapooranisarees/annapoorani/src/lib/util/merge');
+const { addProcessor } = require('@customer01annapooranisarees/annapoorani/src/lib/util/registry');
 const config = require('config');
 
 module.exports = () => {

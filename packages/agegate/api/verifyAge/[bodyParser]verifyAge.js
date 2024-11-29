@@ -1,8 +1,8 @@
 const {
   OK,
   INTERNAL_SERVER_ERROR
-} = require('@annapoorani/annapoorani/src/lib/util/httpStatus');
-const { getSetting } = require('@annapoorani/annapoorani/src/modules/setting/services/setting');
+} = require('@customer01annapooranisarees/annapoorani/src/lib/util/httpStatus');
+const { getSetting } = require('@customer01annapooranisarees/annapoorani/src/modules/setting/services/setting');
 
 // eslint-disable-next-line no-unused-vars
 module.exports = async (request, response, delegate, next) => {

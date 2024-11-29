@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Form } from '@components/common/form/Form';
 import { Field } from '@components/common/form/Field';
 import StartIcon from '@heroicons/react/solid/esm/StarIcon';
-import { _ } from '@annapoorani/annapoorani/src/lib/locale/translate';
+import { _ } from '@customer01annapooranisarees/annapoorani/src/lib/locale/translate';
 
 export default function ReviewForm({ action, product }) {
   const [error, setError] = React.useState(null);

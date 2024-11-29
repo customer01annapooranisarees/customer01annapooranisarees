@@ -2,17 +2,17 @@ const path = require('path');
 const fs = require('fs').promises;
 const {
   INTERNAL_SERVER_ERROR
-} = require('@annapoorani/annapoorani/src/lib/util/httpStatus');
-const { buildUrl } = require('@annapoorani/annapoorani/src/lib/router/buildUrl');
-const { error } = require('@annapoorani/annapoorani/src/lib/log/logger');
+} = require('@customer01annapooranisarees/annapoorani/src/lib/util/httpStatus');
+const { buildUrl } = require('@customer01annapooranisarees/annapoorani/src/lib/router/buildUrl');
+const { error } = require('@customer01annapooranisarees/annapoorani/src/lib/log/logger');
 const {
   getContextValue
-} = require('@annapoorani/annapoorani/src/modules/graphql/services/contextHelper');
-const { getConfig } = require('@annapoorani/annapoorani/src/lib/util/getConfig');
+} = require('@customer01annapooranisarees/annapoorani/src/modules/graphql/services/contextHelper');
+const { getConfig } = require('@customer01annapooranisarees/annapoorani/src/lib/util/getConfig');
 const { Resend } = require('resend');
 const Handlebars = require('handlebars');
-const { getEnv } = require('@annapoorani/annapoorani/src/lib/util/getEnv');
-const { getValue } = require('@annapoorani/annapoorani/src/lib/util/registry');
+const { getEnv } = require('@customer01annapooranisarees/annapoorani/src/lib/util/getEnv');
+const { getValue } = require('@customer01annapooranisarees/annapoorani/src/lib/util/registry');
 
 // eslint-disable-next-line no-unused-vars
 module.exports = async (request, response, delegate, next) => {

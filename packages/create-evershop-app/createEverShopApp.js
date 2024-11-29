@@ -212,13 +212,13 @@ function install(root, useYarn, dependencies, verbose, isOnline) {
 }
 
 function run(root, appName, verbose, originalDirectory, useYarn) {
-  console.log(`Installing ${chalk.cyan('@annapoorani/annapoorani')}`);
+  console.log(`Installing ${chalk.cyan('@customer01annapooranisarees/annapoorani')}`);
   checkIfOnline(useYarn)
     .then((isOnline) => ({
       isOnline
     }))
     .then(({ isOnline }) => {
-      const allDependencies = ['@annapoorani/annapoorani'];
+      const allDependencies = ['@customer01annapooranisarees/annapoorani'];
       return install(root, useYarn, allDependencies, verbose, isOnline).then(
         async () => {
           await setUpannapoorani(root);
@@ -521,7 +521,7 @@ function loadConfigTemplate(projectDir) {
     readFileSync(
       path.resolve(
         projectDir,
-        './node_modules/@annapoorani/annapoorani/bin/install/templates/config.json'
+        './node_modules/@customer01annapooranisarees/annapoorani/bin/install/templates/config.json'
       ),
       'utf-8'
     )

@@ -1,11 +1,11 @@
 const path = require('path');
 const { BlobServiceClient } = require('@azure/storage-blob');
-const { getConfig } = require('@annapoorani/annapoorani/src/lib/util/getConfig');
-const { getEnv } = require('@annapoorani/annapoorani/src/lib/util/getEnv');
+const { getConfig } = require('@customer01annapooranisarees/annapoorani/src/lib/util/getConfig');
+const { getEnv } = require('@customer01annapooranisarees/annapoorani/src/lib/util/getEnv');
 const sharp = require('sharp');
-const { update } = require('@annapoorani/postgres-query-builder');
-const { pool } = require('@annapoorani/annapoorani/src/lib/postgres/connection');
-const { error } = require('@annapoorani/annapoorani/src/lib/log/logger');
+const { update } = require('@customer01annapooranisarees/postgres-query-builder');
+const { pool } = require('@customer01annapooranisarees/annapoorani/src/lib/postgres/connection');
+const { error } = require('@customer01annapooranisarees/annapoorani/src/lib/log/logger');
 
 async function resizeAndUploadImage(
   containerName,

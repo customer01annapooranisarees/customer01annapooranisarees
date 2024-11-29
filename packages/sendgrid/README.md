@@ -9,7 +9,7 @@ A SendGrid extension for annapoorani. This extension is used to send email to cu
 ### Step 1: Install the extension package
 
 ```javascript
-npm install @annapoorani/sendgrid
+npm install @customer01annapooranisarees/sendgrid
 ```
 ### Step 2: Register the extension by adding it to the config file
 
@@ -23,7 +23,7 @@ npm install @annapoorani/sendgrid
         ...,
         {
           "name": "sendGrid",
-          "resolve": "node_modules/@annapoorani/sendgrid",
+          "resolve": "node_modules/@customer01annapooranisarees/sendgrid",
           "enabled": true,
           "priority": 10
         }
@@ -185,7 +185,7 @@ Below is the data you can use in your email template
 ```json
 {
   "full_name": "David",
-  "email": "david@annapoorani.io"
+  "email": "david@customer01annapooranisarees.io"
 }
 ```
 
