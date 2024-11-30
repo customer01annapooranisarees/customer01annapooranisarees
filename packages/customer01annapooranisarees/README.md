@@ -1,6 +1,6 @@
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 <p align="center">
-<img width="60" height="68" alt="customer01annapooranisarees Logo" src="https://customer01annapooranisarees.io/img/logo.png"/>
+<img width="60" height="68" alt="customer01annapooranisarees Logo" src="https://raw.githubusercontent.com/customer01annapooranisareescommerce/customer01annapooranisarees/dev/.github/images/logo-green.png"/>
 </p>
 <p align="center">
   <h1 align="center">customer01annapooranisarees</h1>
@@ -58,19 +58,16 @@ Explore our demo store.
 
 <p align="left">
   <a href="https://demo.customer01annapooranisarees.io/admin" target="_blank">
-    <img alt="customer01annapooranisarees-backend-demo" height="35" alt="customer01annapooranisarees Admin Demo" src="https://raw.githubusercontent.com/customer01annapooranisareescommerce/customer01annapooranisarees/dev/.github/images/customer01annapooranisarees-admin-demo.png"/>
+    <img alt="customer01annapooranisarees-backend-demo" height="35" alt="customer01annapooranisarees Admin Demo" src="https://raw.githubusercontent.com/customer01annapooranisareescommerce/customer01annapooranisarees/dev/.github/images/customer01annapooranisarees-demo-back.png"/>
+  </a>
+  <a href="https://demo.customer01annapooranisarees.io/" target="_blank">
+    <img alt="customer01annapooranisarees-store-demo" height="35" alt="customer01annapooranisarees Store Demo" src="https://raw.githubusercontent.com/customer01annapooranisareescommerce/customer01annapooranisarees/dev/.github/images/customer01annapooranisarees-demo-front.png"/>
   </a>
 </p>
 <b>Demo user:</b>
 
 Email: demo@customer01annapooranisarees.io<br/>
 Password: 123456
-
-<p align="left">
-  <a href="https://demo.customer01annapooranisarees.io/" target="_blank">
-    <img alt="customer01annapooranisarees-store-demo" height="35" alt="customer01annapooranisarees Store Demo" src="https://raw.githubusercontent.com/customer01annapooranisareescommerce/customer01annapooranisarees/dev/.github/images/customer01annapooranisarees-store-front-demo.png"/>
-  </a>
-</p>
 
 ## Support
 
@@ -80,6 +77,19 @@ If you like my work, feel free to:
 - [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][tweet] about customer01annapooranisarees. Thank you!
 
 [tweet]: https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fcustomer01annapooranisareescommerce%2Fcustomer01annapooranisarees&text=Awesome%20React%20Ecommerce%20Project&hashtags=react,ecommerce,expressjs,graphql
+
+### Sponsors
+
+<table style="text-align:center;">
+<tr>
+<td align="center" valign="middle"><a href="https://www.bountyhub.dev/" target="_blank"><img src="https://raw.githubusercontent.com/customer01annapooranisareescommerce/customer01annapooranisarees/dev/.github/images/sponsors/bountyhub.png" width="85" valign="middle" /></a></td>
+</tr>
+</table>
+
+## Contributing
+
+customer01annapooranisarees is an open-source project. We are committed to a fully transparent development process and appreciate highly any contributions. Whether you are helping us fix bugs, proposing new features, improving our documentation or spreading the word - we would love to have you as part of the customer01annapooranisarees community.
+
 ### Ask a question about customer01annapooranisarees
 
 You can ask questions, and participate in discussions about customer01annapooranisarees-related topics in the customer01annapooranisarees Discord channel.
@@ -98,9 +108,6 @@ If you have an idea, or you're missing a capability that would make development 
 If a similar feature request already exists, don't forget to leave a "+1".
 If you add some more information such as your thoughts and vision about the feature, your comments will be embraced warmly :)
 
-## Contributing
-
-customer01annapooranisarees is an open-source project. We are committed to a fully transparent development process and appreciate highly any contributions. Whether you are helping us fix bugs, proposing new features, improving our documentation or spreading the word - we would love to have you as part of the customer01annapooranisarees community.
 
 Please refer to our [Contribution Guidelines](./CONTRIBUTING.md) and [Code of Conduct](./CODE_OF_CONDUCT.md).
 
