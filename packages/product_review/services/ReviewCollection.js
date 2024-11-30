@@ -1,6 +1,6 @@
-const { camelCase } = require('@customer01annapooranisarees/annapoorani/src/lib/util/camelCase');
-const { pool } = require('@customer01annapooranisarees/annapoorani/src/lib/postgres/connection');
-const { getValue } = require('@customer01annapooranisarees/annapoorani/src/lib/util/registry');
+const { camelCase } = require('@customer01annapooranisarees/customer01annapooranisarees/src/lib/util/camelCase');
+const { pool } = require('@customer01annapooranisarees/customer01annapooranisarees/src/lib/postgres/connection');
+const { getValue } = require('@customer01annapooranisarees/customer01annapooranisarees/src/lib/util/registry');
 
 class ReviewCollection {
   constructor(baseQuery) {

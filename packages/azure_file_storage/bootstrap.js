@@ -1,5 +1,5 @@
-const { addProcessor } = require('@customer01annapooranisarees/annapoorani/src/lib/util/registry');
-const { merge } = require('@customer01annapooranisarees/annapoorani/src/lib/util/merge');
+const { addProcessor } = require('@customer01annapooranisarees/customer01annapooranisarees/src/lib/util/registry');
+const { merge } = require('@customer01annapooranisarees/customer01annapooranisarees/src/lib/util/merge');
 const { azureFileUploader } = require('./services/azureFileUploader');
 const { azureFileDeleter } = require('./services/azureFileDeleter');
 const { azureFolderCreator } = require('./services/azureFolderCreator');

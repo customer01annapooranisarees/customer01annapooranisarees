@@ -4,12 +4,12 @@ const {
   GetObjectCommand,
   PutObjectCommand
 } = require('@aws-sdk/client-s3');
-const { getConfig } = require('@customer01annapooranisarees/annapoorani/src/lib/util/getConfig');
-const { getEnv } = require('@customer01annapooranisarees/annapoorani/src/lib/util/getEnv');
+const { getConfig } = require('@customer01annapooranisarees/customer01annapooranisarees/src/lib/util/getConfig');
+const { getEnv } = require('@customer01annapooranisarees/customer01annapooranisarees/src/lib/util/getEnv');
 const sharp = require('sharp');
 const { update } = require('@customer01annapooranisarees/postgres-query-builder');
-const { pool } = require('@customer01annapooranisarees/annapoorani/src/lib/postgres/connection');
-const { error } = require('@customer01annapooranisarees/annapoorani/src/lib/log/logger');
+const { pool } = require('@customer01annapooranisarees/customer01annapooranisarees/src/lib/postgres/connection');
+const { error } = require('@customer01annapooranisarees/customer01annapooranisarees/src/lib/log/logger');
 
 async function downloadObjectToBuffer(objectUrl) {
   const parsedUrl = new URL(objectUrl);

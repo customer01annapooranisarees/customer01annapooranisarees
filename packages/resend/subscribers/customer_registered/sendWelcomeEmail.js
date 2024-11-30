@@ -1,13 +1,13 @@
 const path = require('path');
 const fs = require('fs').promises;
-const { pool } = require('@customer01annapooranisarees/annapoorani/src/lib/postgres/connection');
-const { getConfig } = require('@customer01annapooranisarees/annapoorani/src/lib/util/getConfig');
+const { pool } = require('@customer01annapooranisarees/customer01annapooranisarees/src/lib/postgres/connection');
+const { getConfig } = require('@customer01annapooranisarees/customer01annapooranisarees/src/lib/util/getConfig');
 const { Resend } = require('resend');
 const Handlebars = require('handlebars');
 const { select } = require('@customer01annapooranisarees/postgres-query-builder');
-const { error } = require('@customer01annapooranisarees/annapoorani/src/lib/log/logger');
-const { getEnv } = require('@customer01annapooranisarees/annapoorani/src/lib/util/getEnv');
-const { getValue } = require('@customer01annapooranisarees/annapoorani/src/lib/util/registry');
+const { error } = require('@customer01annapooranisarees/customer01annapooranisarees/src/lib/log/logger');
+const { getEnv } = require('@customer01annapooranisarees/customer01annapooranisarees/src/lib/util/getEnv');
+const { getValue } = require('@customer01annapooranisarees/customer01annapooranisarees/src/lib/util/registry');
 
 module.exports = async function sendOrderConfirmationEmail(data) {
   try {
@@ -51,7 +51,7 @@ module.exports = async function sendOrderConfirmationEmail(data) {
     // Send the email
     const msg = {
       to: emailDataFinal.email,
-      subject: customerRegistered.subject || `Welcome to annapoorani`,
+      subject: customerRegistered.subject || `Welcome to customer01annapooranisarees`,
       from
     };
 

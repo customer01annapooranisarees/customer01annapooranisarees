@@ -5,16 +5,16 @@
       "@components/*": [
         "./themes/friday/components/*",
         "./extensions/productComment/components/*",
-        "./packages/annapoorani/src/components/*"
+        "./packages/customer01annapooranisarees/src/components/*"
       ],
       "@components-origin/*": [
-        "./packages/annapoorani/src/components/*"
+        "./packages/customer01annapooranisarees/src/components/*"
       ],
       "@default-theme/cms/*" : [
-        "./packages/annapoorani/src/modules/cms/pages/*"
+        "./packages/customer01annapooranisarees/src/modules/cms/pages/*"
       ],
-      "@customer01annapooranisarees/annapoorani/*" : [
-        "./packages/annapoorani/*"
+      "@customer01annapooranisarees/customer01annapooranisarees/*" : [
+        "./packages/customer01annapooranisarees/*"
       ]
     }
   }

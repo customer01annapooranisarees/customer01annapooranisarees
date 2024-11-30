@@ -129,4 +129,4 @@ https://www.contributor-covenant.org/translations.
 
 # License
 
-annapoorani is licensed under the GNU General Public License v3.0
+customer01annapooranisarees is licensed under the GNU General Public License v3.0

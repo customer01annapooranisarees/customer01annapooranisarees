@@ -1,5 +1,5 @@
-const { buildUrl } = require('@customer01annapooranisarees/annapoorani/src/lib/router/buildUrl');
-const { getConfig } = require('@customer01annapooranisarees/annapoorani/src/lib/util/getConfig');
+const { buildUrl } = require('@customer01annapooranisarees/customer01annapooranisarees/src/lib/router/buildUrl');
+const { getConfig } = require('@customer01annapooranisarees/customer01annapooranisarees/src/lib/util/getConfig');
 const {
   getGoogleAuthUrl
 } = require('@customer01annapooranisarees/google_login/services/getGoogleAuthUrl');

@@ -41,7 +41,7 @@ function init() {
       );
       console.log(
         `      ${chalk.cyan(
-          'https://github.com/annapoorani/create-annapoorani-app/issues/new'
+          'https://github.com/customer01annapooranisarees/create-customer01annapooranisarees-app/issues/new'
         )}`
       );
       console.log();
@@ -57,7 +57,7 @@ function init() {
     console.log();
     console.log('For example:');
     console.log(
-      `  ${chalk.cyan(program.name())} ${chalk.green('my-annapoorani-app')}`
+      `  ${chalk.cyan(program.name())} ${chalk.green('my-customer01annapooranisarees-app')}`
     );
     console.log();
     console.log(
@@ -75,7 +75,7 @@ function init() {
   checkForLatestVersion()
     .catch(() => {
       try {
-        return execSync('npm view create-annapoorani-app version')
+        return execSync('npm view create-customer01annapooranisarees-app version')
           .toString()
           .trim();
       } catch (e) {
@@ -87,14 +87,14 @@ function init() {
         console.log();
         console.error(
           chalk.yellow(
-            `You are running \`create-annapoorani-app\` ${packageJson.version}, which is behind the latest release (${latest}).\n\n` +
-              'We recommend always using the latest version of create-annapoorani-app if possible.'
+            `You are running \`create-customer01annapooranisarees-app\` ${packageJson.version}, which is behind the latest release (${latest}).\n\n` +
+              'We recommend always using the latest version of create-customer01annapooranisarees-app if possible.'
           )
         );
         console.log();
         console.log(
           'The latest instructions for creating a new app can be found here:\n' +
-            'https://annapoorani.io/docs/development/getting-started/installation-guide/'
+            'https://customer01annapooranisarees.io/docs/development/getting-started/installation-guide/'
         );
         console.log();
       } else {
@@ -116,7 +116,7 @@ function createApp(name, verbose, useYarn) {
   }
   console.log();
 
-  console.log(`Creating a new annapoorani app in ${chalk.green(root)}.`);
+  console.log(`Creating a new customer01annapooranisarees app in ${chalk.green(root)}.`);
   console.log();
 
   const packageJson = {
@@ -124,10 +124,10 @@ function createApp(name, verbose, useYarn) {
     version: '0.1.0',
     private: true,
     scripts: {
-      setup: 'annapoorani install',
-      start: 'annapoorani start',
-      build: 'annapoorani build',
-      dev: 'annapoorani dev'
+      setup: 'customer01annapooranisarees install',
+      start: 'customer01annapooranisarees start',
+      build: 'customer01annapooranisarees build',
+      dev: 'customer01annapooranisarees dev'
     }
   };
   fs.writeFileSync(
@@ -186,7 +186,7 @@ function install(root, useYarn, dependencies, verbose, isOnline) {
       command = 'npm';
       args = [
         'install',
-        '--no-audit', // https://github.com/facebook/create-annapoorani-app/issues/11174
+        '--no-audit', // https://github.com/facebook/create-customer01annapooranisarees-app/issues/11174
         '--save',
         '--save-exact',
         '--loglevel',
@@ -212,16 +212,16 @@ function install(root, useYarn, dependencies, verbose, isOnline) {
 }
 
 function run(root, appName, verbose, originalDirectory, useYarn) {
-  console.log(`Installing ${chalk.cyan('@customer01annapooranisarees/annapoorani')}`);
+  console.log(`Installing ${chalk.cyan('@customer01annapooranisarees/customer01annapooranisarees')}`);
   checkIfOnline(useYarn)
     .then((isOnline) => ({
       isOnline
     }))
     .then(({ isOnline }) => {
-      const allDependencies = ['@customer01annapooranisarees/annapoorani'];
+      const allDependencies = ['@customer01annapooranisarees/customer01annapooranisarees'];
       return install(root, useYarn, allDependencies, verbose, isOnline).then(
         async () => {
-          await setUpannapoorani(root);
+          await setUpcustomer01annapooranisarees(root);
         }
       );
     })
@@ -325,7 +325,7 @@ function checkAppName(appName) {
 // Also, if project contains remnant error logs from a previous
 // installation, lets remove them now.
 // We also special case IJ-based products .idea because it integrates with CRA:
-// https://github.com/facebook/create-annapoorani-app/pull/368#issuecomment-243446094
+// https://github.com/facebook/create-customer01annapooranisarees-app/pull/368#issuecomment-243446094
 function isSafeToCreateProjectIn(root, name) {
   const validFiles = [
     '.DS_Store',
@@ -411,7 +411,7 @@ function getProxy() {
   }
 }
 
-// See https://github.com/facebook/create-annapoorani-app/pull/3355
+// See https://github.com/facebook/create-customer01annapooranisarees-app/pull/3355
 function checkThatNpmCanReadCwd() {
   const cwd = process.cwd();
   let childOutput = null;
@@ -497,7 +497,7 @@ function checkIfOnline(useYarn) {
   });
 }
 
-async function setUpannapoorani(projectDir) {
+async function setUpcustomer01annapooranisarees(projectDir) {
   // Use spawn to run 'npm run setup' command from the project directory
   await new Promise((resolve, reject) => {
     const child = spawn('npm', ['run', 'setup'], {
@@ -521,7 +521,7 @@ function loadConfigTemplate(projectDir) {
     readFileSync(
       path.resolve(
         projectDir,
-        './node_modules/@customer01annapooranisarees/annapoorani/bin/install/templates/config.json'
+        './node_modules/@customer01annapooranisarees/customer01annapooranisarees/bin/install/templates/config.json'
       ),
       'utf-8'
     )
@@ -540,7 +540,7 @@ function checkForLatestVersion() {
   return new Promise((resolve, reject) => {
     https
       .get(
-        'https://registry.npmjs.org/-/package/create-annapoorani-app/dist-tags',
+        'https://registry.npmjs.org/-/package/create-customer01annapooranisarees-app/dist-tags',
         (res) => {
           if (res.statusCode === 200) {
             let body = '';

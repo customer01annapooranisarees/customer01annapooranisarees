@@ -1,6 +1,6 @@
-const { pool } = require('@customer01annapooranisarees/annapoorani/src/lib/postgres/connection');
-const { buildUrl } = require('@customer01annapooranisarees/annapoorani/src/lib/router/buildUrl');
-const { getConfig } = require('@customer01annapooranisarees/annapoorani/src/lib/util/getConfig');
+const { pool } = require('@customer01annapooranisarees/customer01annapooranisarees/src/lib/postgres/connection');
+const { buildUrl } = require('@customer01annapooranisarees/customer01annapooranisarees/src/lib/router/buildUrl');
+const { getConfig } = require('@customer01annapooranisarees/customer01annapooranisarees/src/lib/util/getConfig');
 const {
   getGoogleAuthToken
 } = require('@customer01annapooranisarees/google_login/services/getGoogleAuthToken');
@@ -8,7 +8,7 @@ const {
   getGoogleUserInfo
 } = require('@customer01annapooranisarees/google_login/services/getGoogleUserInfo');
 const { select, insert } = require('@customer01annapooranisarees/postgres-query-builder');
-const { error } = require('@customer01annapooranisarees/annapoorani/src/lib/log/logger');
+const { error } = require('@customer01annapooranisarees/customer01annapooranisarees/src/lib/log/logger');
 
 /* eslint-disable-next-line no-unused-vars */
 module.exports = async (request, response, delegate, next) => {

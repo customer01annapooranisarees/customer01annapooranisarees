@@ -1,8 +1,8 @@
-# Azure storage extension for annapoorani
+# Azure storage extension for customer01annapooranisarees
 
-This extension allows you to store your annapoorani files including product images, banners on Azure Blob Storage.
+This extension allows you to store your customer01annapooranisarees files including product images, banners on Azure Blob Storage.
 
-> **Note**: This extension requires annapoorani version 1.0.0-rc.9 or higher.
+> **Note**: This extension requires customer01annapooranisarees version 1.0.0-rc.9 or higher.
 
 ## Installation guide
 
@@ -14,7 +14,7 @@ npm install @customer01annapooranisarees/azure_file_storage
 
 ### Step 2: Enable the extension
 
-Edit the `config/default.json` file in the root directory of your annapoorani installation and add the following line to the `extensions` section:
+Edit the `config/default.json` file in the root directory of your customer01annapooranisarees installation and add the following line to the `extensions` section:
 
 ```json
 {
@@ -46,13 +46,13 @@ AZURE_STORAGE_CONTAINER_NAME="<Your container name>"
 Example:
 
 ```bash
-AZURE_STORAGE_CONNECTION_STRING="DefaultEndpointsProtocol=https;AccountName=myannapoorani;AccountKey=+b1/nrwkpOF5DZCybDqSDFDdfGCQSbx8eua3y7sadgfdgdfAdNNbns6xMNh+EeE0b10uc0ZJ+AStvBx8pg==;EndpointSuffix=core.windows.net"
+AZURE_STORAGE_CONNECTION_STRING="DefaultEndpointsProtocol=https;AccountName=mycustomer01annapooranisarees;AccountKey=+b1/nrwkpOF5DZCybDqSDFDdfGCQSbx8eua3y7sadgfdgdfAdNNbns6xMNh+EeE0b10uc0ZJ+AStvBx8pg==;EndpointSuffix=core.windows.net"
 AZURE_STORAGE_CONTAINER_NAME="images"
 ```
 
 ### Step 4: Activate the Azure file storage
 
-Edit the `config/default.json` file in the root directory of your annapoorani installation and add the following line to the `file_storage` section:
+Edit the `config/default.json` file in the root directory of your customer01annapooranisarees installation and add the following line to the `file_storage` section:
 
 ```json
 {

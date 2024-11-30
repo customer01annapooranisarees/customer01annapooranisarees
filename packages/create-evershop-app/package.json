@@ -1,24 +1,24 @@
 {
-  "name": "create-annapoorani-app",
+  "name": "create-customer01annapooranisarees-app",
   "version": "2.2.0",
-  "description": "Create annapoorani App",
+  "description": "Create customer01annapooranisarees App",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "create-annapoorani-app": "./index.js"
+    "create-customer01annapooranisarees-app": "./index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/annapooranicommerce/annapoorani.git"
+    "url": "git+https://github.com/customer01annapooranisareescommerce/customer01annapooranisarees.git"
   },
   "author": "The Nguyen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/annapooranicommerce/annapoorani/issues"
+    "url": "https://github.com/customer01annapooranisareescommerce/customer01annapooranisarees/issues"
   },
-  "homepage": "https://github.com/annapooranicommerce/annapoorani#readme",
+  "homepage": "https://github.com/customer01annapooranisareescommerce/customer01annapooranisarees#readme",
   "dependencies": {
     "boxen": "^5.1.2",
     "chalk": "^4.1.2",

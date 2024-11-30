@@ -1,10 +1,10 @@
 {
   "name": "@customer01annapooranisarees/product_review",
   "version": "1.1.0",
-  "description": "An annapoorani extension for product review",
+  "description": "An customer01annapooranisarees extension for product review",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "The Nguyen(https://annapoorani.io/)",
+  "author": "The Nguyen(https://customer01annapooranisarees.io/)",
   "license": "GNU GENERAL PUBLIC LICENSE 3.0"
 }

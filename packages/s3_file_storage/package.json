@@ -1,20 +1,20 @@
 {
   "name": "@customer01annapooranisarees/s3_file_storage",
   "version": "1.2.0",
-  "description": "An extension for annapoorani to use AWS S3 File Storage",
+  "description": "An extension for customer01annapooranisarees to use AWS S3 File Storage",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/annapooranicommerce/annapoorani/tree/main/packages/s3_file_storage"
+    "url": "git+https://github.com/customer01annapooranisareescommerce/customer01annapooranisarees/tree/main/packages/s3_file_storage"
   },
   "keywords": [
-    "annapoorani AWS s3 file storage"
+    "customer01annapooranisarees AWS s3 file storage"
   ],
-  "author": "The Nguyen (https://annapoorani.io/)",
+  "author": "The Nguyen (https://customer01annapooranisarees.io/)",
   "license": "GNU GENERAL PUBLIC LICENSE 3.0",
   "bugs": {
-    "url": "https://github.com/annapooranicommerce/annapoorani/issues"
+    "url": "https://github.com/customer01annapooranisareescommerce/customer01annapooranisarees/issues"
   },
-  "homepage": "https://github.com/annapooranicommerce/annapoorani/tree/main/packages/s3_file_storage",
+  "homepage": "https://github.com/customer01annapooranisareescommerce/customer01annapooranisarees/tree/main/packages/s3_file_storage",
   "engines": {
     "node": ">= 14.0.0"
   },

@@ -10,27 +10,27 @@
     "babel.config.js"
   ],
   "bin": {
-    "annapoorani": "bin/annapoorani"
+    "customer01annapooranisarees": "bin/customer01annapooranisarees"
   },
   "workspaces": [
     "packages/*",
     "extensions/*"
   ],
   "scripts": {
-    "dev": "annapoorani dev",
-    "setup": "annapoorani install",
-    "build": "annapoorani build",
-    "start": "annapoorani start",
-    "user:create": "annapoorani user:create",
-    "user:changePassword": "annapoorani user:changePassword",
-    "start:debug": "annapoorani start --debug",
-    "test": "jest --workspace=@customer01annapooranisarees/annapoorani",
+    "dev": "customer01annapooranisarees dev",
+    "setup": "customer01annapooranisarees install",
+    "build": "customer01annapooranisarees build",
+    "start": "customer01annapooranisarees start",
+    "user:create": "customer01annapooranisarees user:create",
+    "user:changePassword": "customer01annapooranisarees user:changePassword",
+    "start:debug": "customer01annapooranisarees start --debug",
+    "test": "jest --workspace=@customer01annapooranisarees/customer01annapooranisarees",
     "cypress": "cypress run",
     "lint": "eslint --fix --ext .js,.jsx .",
     "prepare": "husky install"
   },
-  "author": "The Nguyen (https://annapoorani.io)",
-  "license": "GPL-3.0-or-later",
+  "author": "The Nguyen (https://customer01annapooranisarees.io)",
+  "license": "GNU GENERAL PUBLIC LICENSE 3.0",
   "devDependencies": {
     "@babel/cli": "^7.15.7",
     "@babel/core": "^7.14.8",
@@ -53,5 +53,6 @@
     "tailwindcss": "^3.2.1",
     "webpack-bundle-analyzer": "^4.5.0"
   },
-  "main": "babel.config.js"
+  "main": "babel.config.js",
+  "keywords": []
 }

@@ -1,11 +1,11 @@
 {
   "name": "@customer01annapooranisarees/postgres-query-builder",
-  "version": "1.2.1",
+  "version": "1.2.0",
   "description": "A PostgreSQL query builder for NodeJS",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/customer01annapooranisarees/customer01annapooranisarees.git#main"
+    "url": "git+https://github.com/customer01annapooranisareescommerce/customer01annapooranisarees/tree/main/packages/postgres-query-builder"
   },
   "keywords": [
     "PostgreSQL",
@@ -22,17 +22,14 @@
   "author": "The Nguyen (https://customer01annapooranisarees.io/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/customer01annapooranisarees/customer01annapooranisarees/issues"
+    "url": "https://github.com/customer01annapooranisareescommerce/customer01annapooranisarees/issues"
   },
-  "homepage": "https://github.com/customer01annapooranisarees/customer01annapooranisarees/tree/main/packages/postgres-query-builder",
+  "homepage": "https://github.com/customer01annapooranisareescommerce/customer01annapooranisarees/tree/main/packages/postgres-query-builder",
   "dependencies": {
     "pg": "^8.10.0",
     "uniqid": "^5.3.0"
   },
   "engines": {
     "node": ">= 12.0.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

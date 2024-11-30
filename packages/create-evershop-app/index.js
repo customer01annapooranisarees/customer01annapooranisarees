@@ -17,6 +17,6 @@ if (major < 14) {
   process.exit(1);
 }
 
-const { init } = require('./createannapooraniApp');
+const { init } = require('./createcustomer01annapooranisareesApp');
 
 init();

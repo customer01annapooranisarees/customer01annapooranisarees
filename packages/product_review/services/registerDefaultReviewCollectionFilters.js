@@ -1,7 +1,7 @@
 const {
   OPERATION_MAP
-} = require('@customer01annapooranisarees/annapoorani/src/lib/util/filterOperationMapp');
-const { getValueSync } = require('@customer01annapooranisarees/annapoorani/src/lib/util/registry');
+} = require('@customer01annapooranisarees/customer01annapooranisarees/src/lib/util/filterOperationMapp');
+const { getValueSync } = require('@customer01annapooranisarees/customer01annapooranisarees/src/lib/util/registry');
 
 module.exports = async function registerDefaultReviewCollectionFilters() {
   // List of default supported filters

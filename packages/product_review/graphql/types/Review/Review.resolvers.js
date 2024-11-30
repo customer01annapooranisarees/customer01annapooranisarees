@@ -1,5 +1,5 @@
-const { buildUrl } = require('@customer01annapooranisarees/annapoorani/src/lib/router/buildUrl');
-const { camelCase } = require('@customer01annapooranisarees/annapoorani/src/lib/util/camelCase');
+const { buildUrl } = require('@customer01annapooranisarees/customer01annapooranisarees/src/lib/router/buildUrl');
+const { camelCase } = require('@customer01annapooranisarees/customer01annapooranisarees/src/lib/util/camelCase');
 const { select } = require('@customer01annapooranisarees/postgres-query-builder');
 const { ReviewCollection } = require('../../../services/ReviewCollection');
 const {

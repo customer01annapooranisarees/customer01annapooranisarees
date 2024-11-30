@@ -1,8 +1,8 @@
-# Product review extension for annapoorani
+# Product review extension for customer01annapooranisarees
 
 This extension allows customer to review and rate products.
 
-> **Note**: This extension requires annapoorani version 1.0.0-rc.6 or higher.
+> **Note**: This extension requires customer01annapooranisarees version 1.0.0-rc.6 or higher.
 
 ## Installation guide
 
@@ -15,7 +15,7 @@ npm install @customer01annapooranisarees/product_review
 
 ### Step 2: Enable the extension
 
-Edit the `config/default.json` file in the root directory of your annapoorani installation and add the following line to the `extensions` section:
+Edit the `config/default.json` file in the root directory of your customer01annapooranisarees installation and add the following line to the `extensions` section:
 
 ```json
 {

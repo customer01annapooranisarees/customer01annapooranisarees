@@ -1,6 +1,6 @@
-const { getConfig } = require('@customer01annapooranisarees/annapoorani/src/lib/util/getConfig');
-const { merge } = require('@customer01annapooranisarees/annapoorani/src/lib/util/merge');
-const { addProcessor } = require('@customer01annapooranisarees/annapoorani/src/lib/util/registry');
+const { getConfig } = require('@customer01annapooranisarees/customer01annapooranisarees/src/lib/util/getConfig');
+const { merge } = require('@customer01annapooranisarees/customer01annapooranisarees/src/lib/util/merge');
+const { addProcessor } = require('@customer01annapooranisarees/customer01annapooranisarees/src/lib/util/registry');
 const config = require('config');
 
 module.exports = () => {
@@ -59,7 +59,7 @@ module.exports = () => {
         templatePath: undefined // This is the path to the email template. Starting from the root of the project.
       },
       customer_registered: {
-        subject: 'Welcome to annapoorani',
+        subject: 'Welcome to customer01annapooranisarees',
         enabled: true,
         templatePath: undefined // This is the path to the email template. Starting from the root of the project.
       }

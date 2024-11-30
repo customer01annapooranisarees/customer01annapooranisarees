@@ -3,7 +3,7 @@ const config = require('config');
 module.exports = () => {
   const sendgridConfig = {
     from: 'Customer Service <hello@customer01annapooranisarees.io>',
-    fromName: 'annapoorani',
+    fromName: 'customer01annapooranisarees',
     events: {
       order_placed: {
         subject: 'Order Confirmation',
@@ -16,7 +16,7 @@ module.exports = () => {
         templateId: 'd-4f34caba1e1842739767c7f3d5568f3c21'
       },
       customer_registered: {
-        subject: 'Welcome to annapoorani',
+        subject: 'Welcome to customer01annapooranisarees',
         enabled: true,
         templateId: 'd-98b1cdc4896c4e759596e6704dcf4a4560'
       }

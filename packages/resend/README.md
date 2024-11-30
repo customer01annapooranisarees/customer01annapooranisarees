@@ -1,8 +1,8 @@
-# Resend extension for annapoorani
+# Resend extension for customer01annapooranisarees
 
-A Resend extension for annapoorani. This extension is used to send email to customers.
+A Resend extension for customer01annapooranisarees. This extension is used to send email to customers.
 
-> **Note**: This extension requires annapoorani version 1.0.0 or higher.
+> **Note**: This extension requires customer01annapooranisarees version 1.0.0 or higher.
 
 ## Installation
 
@@ -60,7 +60,7 @@ RESEND_API_KEY=your_api_key
         "templatePath": "config/emails/reset_password.html" // The path to your email template. Starting from the root of your project
       },
       "customer_registered": {
-        "subject": "Welcome to annapoorani",
+        "subject": "Welcome to customer01annapooranisarees",
         "enabled": true,
         "templatePath": "config/emails/welcome.html" // The path to your email template. Starting from the root of your project
       }
@@ -105,7 +105,7 @@ config
         "templatePath": "config/emails/reset_password.html"
       },
       "customer_registered": {
-        "subject": "Welcome to annapoorani",
+        "subject": "Welcome to customer01annapooranisarees",
         "enabled": true,
         "templatePath": "config/emails/welcome.html"
       }
@@ -114,4 +114,4 @@ config
 }
 ```
 
-> **Note**: You can check the example email templates [here](https://github.com/annapooranicommerce/annapoorani/tree/main/packages/resend/email_template_examples).
+> **Note**: You can check the example email templates [here](https://github.com/customer01annapooranisareescommerce/customer01annapooranisarees/tree/main/packages/resend/email_template_examples).

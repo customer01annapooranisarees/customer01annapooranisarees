@@ -1,8 +1,8 @@
-# AWS S3 storage extension for annapoorani
+# AWS S3 storage extension for customer01annapooranisarees
 
-This extension allows you to store your annapoorani files including product images, banners on AWS S3.
+This extension allows you to store your customer01annapooranisarees files including product images, banners on AWS S3.
 
-> **Note**: This extension requires annapoorani version 1.0.0-rc.9 or higher.
+> **Note**: This extension requires customer01annapooranisarees version 1.0.0-rc.9 or higher.
 
 ## Installation guide
 
@@ -14,7 +14,7 @@ npm install @customer01annapooranisarees/s3_file_storage
 
 ### Step 2: Enable the extension
 
-Edit the `config/default.json` file in the root directory of your annapoorani installation and add the following line to the `extensions` section:
+Edit the `config/default.json` file in the root directory of your customer01annapooranisarees installation and add the following line to the `extensions` section:
 
 ```json
 {
@@ -47,7 +47,7 @@ AWS_BUCKET_NAME="<Your bucket name>"
 
 ### Step 4: Active the AWS S3 storage
 
-Edit the `config/default.json` file in the root directory of your annapoorani installation and add the following line to the `file_storage` section:
+Edit the `config/default.json` file in the root directory of your customer01annapooranisarees installation and add the following line to the `file_storage` section:
 
 ```json
 {

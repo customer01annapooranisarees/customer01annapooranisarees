@@ -1,5 +1,5 @@
-const { addProcessor } = require('@customer01annapooranisarees/annapoorani/src/lib/util/registry');
-const { merge } = require('@customer01annapooranisarees/annapoorani/src/lib/util/merge');
+const { addProcessor } = require('@customer01annapooranisarees/customer01annapooranisarees/src/lib/util/registry');
+const { merge } = require('@customer01annapooranisarees/customer01annapooranisarees/src/lib/util/merge');
 const { awsFileUploader } = require('./services/awsFileUploader');
 const { awsFileDeleter } = require('./services/awsFileDeleter');
 const { awsFileBrowser } = require('./services/awsFileBrowser');
